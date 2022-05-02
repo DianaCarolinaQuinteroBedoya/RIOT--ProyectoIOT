@@ -19,3 +19,9 @@ void setup()
   pinMode(verde,OUTPUT);//se define la variable verde como salida
   aspersor.attach(4);//Se determina el pin de salida para el servo 
  }
+ void loop()
+{
+  humedad = analogRead(A0); //se lee el valor de humedad del sensor
+  Serial.print(humedad); // se muestra el valor 
+  Serial.println(); //Salto de linea para diferenciar los valores
+  
