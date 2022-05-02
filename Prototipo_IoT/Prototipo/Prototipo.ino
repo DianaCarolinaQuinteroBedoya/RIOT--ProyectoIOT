@@ -28,3 +28,9 @@ void setup()
   Serial.print(tempC); //se muestra el valor de temperatura 
   Serial.println(); //Salto de linea para diferenciar los valores
   Serial.println(); //Salto de linea para nueva medición de valores
+
+   if(humedad >= 0 & humedad <= 300){ //se crea un condicional según el valor de humedad medido
+    digitalWrite(verde,LOW); //se mantiene apagado el led verde 
+    digitalWrite(rojo,HIGH); //se enciende el led rojo ya que es un valor muy bajo
+    aspersor.write(180);//se abre la comspuerta del aspersor para dejar salir agua a la planta
+    } 
