@@ -24,6 +24,7 @@ void setup()
   humedad = analogRead(A0); //se lee el valor de humedad del sensor
   Serial.print(humedad); // se muestra el valor 
   Serial.println(); //Salto de linea para diferenciar los valores
+  temp= analogRead(A1); //Se lee el valor de temperatura del sensor
   tempC = ((5.0 * temp * 100.0)/1024.0)-50; //Operación matematica para calcular la temperatira en funcio del voltaje 
   Serial.print(tempC); //se muestra el valor de temperatura 
   Serial.println(); //Salto de linea para diferenciar los valores
