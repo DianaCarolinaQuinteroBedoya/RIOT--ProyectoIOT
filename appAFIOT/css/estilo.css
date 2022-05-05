@@ -1,7 +1,7 @@
 body {
     background: url("../imagenes/riego.jpg") center;
     background-color: black;
-    background-size: 120% auto;
+    background-size: 160% auto;
     background-repeat: no-repeat;
 }
 
@@ -49,7 +49,7 @@ h3{
     line-height: 15px;
     background: #f8f0f080;
     padding: 10px 5px;
-  }
+}
 
 #login-box button {
     border: 0;
@@ -62,3 +62,4 @@ h3{
     background-color: #24961a;
     border-radius: 15px;
   }
+
