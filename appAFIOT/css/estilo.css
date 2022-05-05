@@ -1,0 +1,64 @@
+body {
+    background: url("../imagenes/riego.jpg") center;
+    background-color: black;
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+}
+
+{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    font-family:Helvetica,Futura,'Segoe UI', leage gothic, Geneva, Verdana, monospace;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #5ffa38;
+    margin: 15px;
+    padding: 0px;
+    letter-spacing: 0px;
+}
+
+h2{
+    font-family:Helvetica,Futura,'Segoe UI', leage gothic, Geneva, Verdana, monospace;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(231, 189, 0);
+    margin:30px;
+    padding: 0px;
+    letter-spacing: -1px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    padding: 0px;
+    letter-spacing: 0px;
+}
+
+#login-box {
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    line-height: 15px;
+    background: #f8f0f080;
+    padding: 10px 5px;
+  }
+
+#login-box button {
+    border: 0;
+    margin-top: 15px;
+    width: 125px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: #24961a;
+    border-radius: 15px;
+  }
