@@ -18,3 +18,5 @@ de dispositivo IoT con funcionamiento en cultivos, se implementara una comunicac
 El sistema de riego contara con 3 sensores para la medición de datos, en el primer caso se toma la temperatura del ambiente para tener un control y monitoreo y no halla problemas hacia el cultivo por altas o bajas temperaturas, se medirá también el pH de la tierra, para saber que acidez tiene la tierra y de acuerdo a eso saber si esta es da˜nina para el cultivo y tomar medidas de precaución y nivelación del pH, para esto se enviara una alerta al usuario por medio de una web que se observa desde el celular, por ultimo todo cultivo tiene un rango de medida en humedad para que este no muera por ahogamiento o escasez de agua, aunque aun no se sabe el rango se harán mediciones para tener
 un promedio de humedad, y una vez tomada la humedad por medio del sensor el sistema activara el riego, ya sea por aspersión, micro aspersión o nevulización, y así llevar un control en el consumo del
 agua.
+
+Estadisticas app: https://thingspeak.com/channels/1755971
